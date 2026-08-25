@@ -12,7 +12,7 @@ I am a student of linguistics at the University of Maryland, College Park, advis
 - **Metatheory of linguistics**: empirical grounding of linguistic theory, logical structure of linguistic theory
 - **Mathematics**: general topology, commutative algebra, algebraic geometry, category theory
 
-## Publications
+## Publications and Theses
 
 {% include_relative _includes/publications.html %}
 
