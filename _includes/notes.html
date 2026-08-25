@@ -1,9 +1,9 @@
 <div class="notes">
 
   {% if site.enable_notes_thumbnails %}
-  <ul class="notes_list" style="list-style: none; padding: 0; margin-top: 0;">
+  <ol class="bibliography">
   {% else %}
-  <ul class="notes_list">
+  <ol class="bibliography" style="list-style: decimal; padding: revert;">
   {% endif %}
 
     {% for note in site.data.notes.main %}
@@ -20,6 +20,7 @@
           {% endif %}
         </div>
         {% endif %}
+
         <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
           <div class="title">
             {% if note.link %}
@@ -27,43 +28,47 @@
             {% else %}
             {{ note.title }}
             {% endif %}
-            {% if note.venue %}
-            &ZeroWidthSpace;, {{ note.venue }}
-            {% endif %}
-            {% if note.date %}
-            &ZeroWidthSpace;, {{ note.date }}
-            {% endif %}
           </div>
-          <!-- <div class="author">{{ note.authors }}</div>
-          <div class="periodical"><em>{{ note.conference }}</em></div> -->
+
+          <div class="periodical">
+            {% if note.venue %}<em>{{ note.venue }}</em>{% endif %}{% if note.date %}{% if note.venue %}, {% endif %}{{ note.date }}{% endif %}
+          </div>
+
           <div class="links">
             {% if note.pdf %}
             <a href="{{ note.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">PDF</a>
             {% endif %}
+
             {% if note.slides %}
             <a href="{{ note.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">Slides</a>
             {% endif %}
+
             {% if note.poster %}
             <a href="{{ note.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">Poster</a>
             {% endif %}
+
             {% if note.arxiv %}
             <a href="{{ note.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">arXiv</a>
             {% endif %}
+
             {% if note.code %}
             <a href="{{ note.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">Code</a>
             {% endif %}
+
             {% if note.page %}
             <a href="{{ note.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">Project Page</a>
             {% endif %}
+
             {% if note.notes %}
-            <strong> <i style="color:#e74d3c">{{ note.notes }}</i></strong>
+            <strong><i style="color:#e74d3c">{{ note.notes }}</i></strong>
             {% endif %}
+
             {% if note.others %}
             {{ note.others }}
             {% endif %}
@@ -71,9 +76,8 @@
         </div>
       </div>
     </li>
-    <br>
 
     {% endfor %}
 
-  </ul>
+  </ol>
 </div>
