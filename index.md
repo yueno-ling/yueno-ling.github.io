@@ -8,12 +8,9 @@ I am a student of linguistics at the University of Maryland, College Park, advis
 
 ## Research Interests
 
-- Individual generative grammars (as theories of individual I-languages)
-- UG (as the theory of the faculty of language)
-- Empirical grounding of linguistic theory
-- Logical structure of linguistic theory
-- Commutative algebra
-- Category theory
+- Linguistics: generative theory of human language, syntax in the broad/narrow sense
+- Meta-linguistics: Empirical grounding of linguistic theory, logical structure of linguistic theory
+- Mathematics: General topology, commutative algebra, algebraic geometry, category theory
 
 ## Publications
 
