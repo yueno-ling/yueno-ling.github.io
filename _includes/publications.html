@@ -35,10 +35,12 @@
           <div class="title">{{ pub.title }}</div>
           {% endif %}
 
-          <div class="author">{{ pub.authors }}</div>
-
+          <div class="author">
+            {{ pub.authors }}{% if pub.year %} ({{ pub.year }}){% endif %}
+          </div>
+          
           <div class="periodical">
-            <em>{{ pub.journal }}</em>{% if pub.pages %}, {{ pub.pages }}{% endif %}{% if pub.year %} ({{ pub.year }}){% endif %}
+            <em>{{ pub.journal }}</em>{% if pub.pages %}, {{ pub.pages }}{% endif %}
           </div>
 
           {% if pub.committee %}
