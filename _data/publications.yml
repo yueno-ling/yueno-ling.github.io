@@ -1,28 +1,40 @@
 main:
 
-  - title: Descartes' rule of signs for finite fields
-    authors: Gary Fishman
-    notes: in preparation
-    image: ./assets/img/teaser_example.png
+  - title: "Generative Grammar and the New Development of Algebraic Linguistics"
+    authors: "Naoki Fukui, Yutaro Ueno, Keita Umejima"
+    journal: "JELS 43"
+    pages: "220–227"
+    year: "2026"
+    pdf: "/assets/files/jels43.pdf"
 
-  - title: Vector encoding of phylogenetic trees by ordered leaf attachment
-    authors: Harry Richman, Cheng Zhang, Erick Matsen
-    arxiv: https://arxiv.org/abs/2503.10169
-    code: https://github.com/matsengrp/ola-encoding
-    image: ./assets/img/ola_tree_thumb.png
-    notes: submitted
+  - title: "Formal Properties of the Prerequisite Operation for Combining Syntactic Objects: Categorical Foundations of an Algebraic Theory of Workspace"
+    authors: "Yutaro Ueno"
+    journal: "Master's thesis, Sophia University, Tokyo, Japan"
+    year: "2026"
 
-  - title: The floor quotient partial order
-    authors: Jeffrey Lagarias, Harry Richman
-    journal_short: Adv Appl Math
-    journal: Adv. in Appl. Math.
-    year: 2024
-    link: https://doi.org/10.1016/j.aam.2023.102615
-    arxiv: https://arxiv.org/abs/2212.11689
-    bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=floor%20quotient%20partial%20order&year=2024
-    code: https://github.com/harryrichman/floor-quotients-app
-    demo: https://harryrichman.github.io/floor-quotients-app/
-    image: ./assets/img/floor_quotient_thumb.png
+  # - title: Descartes' rule of signs for finite fields
+  #   authors: Gary Fishman
+  #   notes: in preparation
+  #   image: ./assets/img/teaser_example.png
+
+  # - title: Vector encoding of phylogenetic trees by ordered leaf attachment
+  #   authors: Harry Richman, Cheng Zhang, Erick Matsen
+  #   arxiv: https://arxiv.org/abs/2503.10169
+  #   code: https://github.com/matsengrp/ola-encoding
+  #   image: ./assets/img/ola_tree_thumb.png
+  #   notes: submitted
+
+  # - title: The floor quotient partial order
+  #   authors: Jeffrey Lagarias, Harry Richman
+  #   journal_short: Adv Appl Math
+  #   journal: Adv. in Appl. Math.
+  #   year: 2024
+  #   link: https://doi.org/10.1016/j.aam.2023.102615
+  #   arxiv: https://arxiv.org/abs/2212.11689
+  #   bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=floor%20quotient%20partial%20order&year=2024
+  #   code: https://github.com/harryrichman/floor-quotients-app
+  #   demo: https://harryrichman.github.io/floor-quotients-app/
+  #   image: ./assets/img/floor_quotient_thumb.png
 
   # - title: Lower rational approximations and Farey staircases
   #   authors: Harry Richman
