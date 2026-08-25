@@ -1,0 +1,51 @@
+<div class="research-projects">
+
+  <ol class="bibliography" style="list-style: decimal; padding: revert;">
+
+    {% for project in site.data.research-projects.main %}
+
+    <li>
+      <div class="pub-row">
+        <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+
+          <div class="title">
+            {% if project.link %}
+            <a href="{{ project.link }}">{{ project.title }}</a>
+            {% else %}
+            {{ project.title }}
+            {% endif %}
+          </div>
+
+          {% if project.funding_program %}
+          <div class="author">
+            {{ project.funding_program }}
+          </div>
+          {% endif %}
+
+          {% if project.funding_agency %}
+          <div class="periodical">
+            <em>{{ project.funding_agency }}</em>
+          </div>
+          {% endif %}
+
+          {% if project.project_number %}
+          <div class="project-number">
+            Project No. {{ project.project_number }}
+          </div>
+          {% endif %}
+
+          {% if project.period %}
+          <div class="period">
+            {{ project.period }}
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </li>
+
+    {% endfor %}
+
+  </ol>
+
+</div>
