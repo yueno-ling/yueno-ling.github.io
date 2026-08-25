@@ -9,8 +9,9 @@ main:
 
   - title: "Formal Properties of the Prerequisite Operation for Combining Syntactic Objects: Categorical Foundations of an Algebraic Theory of Workspace"
     authors: "Yutaro Ueno"
-    journal: "Master's thesis, Sophia University, Tokyo, Japan"
+    journal: "Master's thesis"
     year: "2026"
+    notes: "Sophia University, Tokyo, Japan"
 
   # - title: Descartes' rule of signs for finite fields
   #   authors: Gary Fishman
