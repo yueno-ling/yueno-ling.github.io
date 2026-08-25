@@ -5,7 +5,7 @@ main:
     journal: "JELS 43"
     pages: "220–227"
     year: "2026"
-    pdf: "/assets/files/jels43.pdf"
+    pdf: "/assets/files/C24_Fukui_Sympo.pdf"
 
   - title: "Formal Properties of the Prerequisite Operation for Combining Syntactic Objects: Categorical Foundations of an Algebraic Theory of Workspace"
     authors: "Yutaro Ueno"
