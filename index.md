@@ -14,18 +14,11 @@ I am a student of linguistics at the University of Maryland, College Park, advis
 
 ## Publications
 
-**Formal Properties of the Prerequisite Operation for Combining Syntactic Objects: Categorical Foundations of an Algebraic Theory of Workspace**  
-Yutaro Ueno  
-Master's thesis, January 2026.
+{% include_relative _includes/publications.html %}
 
-**Generative Grammar and the New Development of Algebraic Linguistics** [PDF](assets/files/C24_Fukui_Sympo.pdf)  
-Naoki Fukui, Yutaro Ueno, and Keita Umejima.  
-*JELS 43*, 220–227, 2026.  
+## Notes and Presentations
 
-## Presentations
-
-**On the Mathematics of Search** [Slides](assets/files/ELSJ43_SB2.pdf)  
-The 43rd Annual Conference of the English Linguistic Society of Japan, Symposium “Generative Grammar and the New Development of Algebraic Linguistics,” November 8, 2025. Invited. 
+{% include_relative _includes/notes.html %}
 
 ## Research Projects
 
