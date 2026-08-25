@@ -35,26 +35,5 @@ Fulbright Grant (Graduate Study Program), Japan-U.S. Educational Commission (Ful
 **An Algebraic Study of Formal Universals in Human Language and Their Organization in Category-Theoretic Terms**  
 “Support for Pioneering Research Initiated by the Next Generation” (SPRING) Program, “Fostering Advanced Human Resource Development to Lead Green Transformation (GX)” Project, Japan Science and Technology Agency (JST), April 2026–March 2029.
 
-## Education
-
-**University of Maryland, College Park**  
-Department of Linguistics, August 2026–present.
-
-**The University of Tokyo**  
-Department of Language and Information Sciences, Graduate School of Arts and Sciences, April 2026–present.
-
-**Sophia University**  
-M.A. in Linguistics, Graduate School of Languages and Linguistics, March 2026.
-
-**Sophia University**  
-B.A. in Foreign Studies, Department of English Language and Studies, Faculty of Foreign Studies, March 2024.
-
-## Awards
-
-**Academic Excellence Award**, Sophia University, June 2023.
-
-**Sophia University Benefactors’ Scholarship**, Department of English Studies Sentetsu, Sophia University, January 2022.
-
-- Markdown for a math quote:
 > God is always doing geometry  
 > -- Plato
