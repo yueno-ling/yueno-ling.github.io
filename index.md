@@ -18,7 +18,7 @@ I am a student of linguistics at the University of Maryland, College Park. I inv
 ## Publications
 
 **Formal Properties of the Prerequisite Operation for Combining Syntactic Objects: Categorical Foundations of an Algebraic Theory of Workspace**  
-Yutaro Ueno
+Yutaro Ueno  
 Master's thesis, January 2026.
 
 **Generative Grammar and the New Development of Algebraic Linguistics** [PDF](assets/files/C24_Fukui_Sympo.pdf)  
