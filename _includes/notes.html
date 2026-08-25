@@ -1,4 +1,4 @@
-<div class="notes">
+<div class="publications">
 
   {% if site.enable_notes_thumbnails %}
   <ol class="bibliography">
@@ -9,19 +9,20 @@
     {% for note in site.data.notes.main %}
 
     <li>
-      <div class="note-row">
+      <div class="pub-row">
+
         {% if site.enable_notes_thumbnails %}
         <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
           {% if note.image %}
           <img src="{{ note.image }}" class="teaser img-fluid z-depth-1">
           {% else %}
-          <div class="teaser" style="box-shadow: none;">
-          </div>
+          <div class="teaser" style="box-shadow: none;"></div>
           {% endif %}
         </div>
         {% endif %}
 
         <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+
           <div class="title">
             {% if note.link %}
             <a href="{{ note.link }}">{{ note.title }}</a>
@@ -73,6 +74,7 @@
             {{ note.others }}
             {% endif %}
           </div>
+
         </div>
       </div>
     </li>
