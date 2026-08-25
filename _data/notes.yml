@@ -4,7 +4,7 @@ main:
     venue: 'The 43rd Annual Conference of the English Linguistic Society of Japan, Symposium "Generative Grammar and the New Development of Algebraic Linguistics"'
     date: November 8, 2025
     slides: /assets/files/ELSJ43_SB2.pdf.pdf
-    others: "Invited"
+    notes: "Invited"
 
   # - title: Ricci curvature on graphs
   #   date: January 2024
