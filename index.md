@@ -22,8 +22,4 @@ I am a student of linguistics at the University of Maryland, College Park, advis
 
 ## Research Projects
 
-**Toward a Category-Theoretic General Linguistic Theory: Foundations and Empirical Implications**  
-Fulbright Grant (Graduate Study Program), Japan-U.S. Educational Commission (Fulbright Japan), August 2026–July 2031.
-
-**An Algebraic Study of Formal Universals in Human Language and Their Organization in Category-Theoretic Terms**  
-“Support for Pioneering Research Initiated by the Next Generation” (SPRING) Program, “Fostering Advanced Human Resource Development to Lead Green Transformation (GX)” Project, Japan Science and Technology Agency (JST), April 2026–March 2029.
+{% include_relative _includes/research-projects.html %}
