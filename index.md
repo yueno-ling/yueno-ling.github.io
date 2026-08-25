@@ -9,7 +9,7 @@ I am a student of linguistics at the University of Maryland, College Park, advis
 ## Research Interests
 
 - Linguistics: generative theory of human language, syntax in the broad/narrow sense
-- Meta-linguistics: empirical grounding of linguistic theory, logical structure of linguistic theory
+- Metatheory of linguistics: empirical grounding of linguistic theory, logical structure of linguistic theory
 - Mathematics: general topology, commutative algebra, algebraic geometry, category theory
 
 ## Publications
