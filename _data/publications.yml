@@ -11,7 +11,7 @@ main:
     authors: "Yutaro Ueno"
     journal: "Master's thesis"
     year: "2026"
-    notes: "Sophia University, Tokyo, Japan"
+    others: "Sophia University, Tokyo, Japan"
 
   # - title: Descartes' rule of signs for finite fields
   #   authors: Gary Fishman
