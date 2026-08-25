@@ -21,16 +21,14 @@ I am a student of linguistics at the University of Maryland, College Park. I inv
 Yutaro Ueno
 Master's thesis, January 2026.
 
-**Generative Grammar and the New Development of Algebraic Linguistics**  
+**Generative Grammar and the New Development of Algebraic Linguistics** [PDF](assets/files/C24_Fukui_Sympo.pdf)  
 Naoki Fukui, Yutaro Ueno, and Keita Umejima.  
 *JELS 43*, 220–227, 2026.  
-[PDF](assets/files/jels43.pdf)
 
 ## Presentations
 
-**On the Mathematics of Search**  
-The 43rd Annual Conference of the English Linguistic Society of Japan, Symposium “Generative Grammar and the New Development of Algebraic Linguistics,” November 8, 2025. Invited.  
-[Slides](assets/files/on-the-mathematics-of-search.pdf)
+**On the Mathematics of Search** [Slides](assets/files/ELSJ43_SB2.pdf)  
+The 43rd Annual Conference of the English Linguistic Society of Japan, Symposium “Generative Grammar and the New Development of Algebraic Linguistics,” November 8, 2025. Invited. 
 
 ## Research Projects
 
