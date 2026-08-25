@@ -1,4 +1,4 @@
-<div class="research-projects">
+<div class="publications research-projects">
 
   <ol class="bibliography" style="list-style: decimal; padding: revert;">
 
@@ -10,9 +10,9 @@
 
           <div class="title">
             {% if project.link %}
-            <strong><a href="{{ project.link }}">{{ project.title }}</a></strong>
+            <a href="{{ project.link }}">{{ project.title }}</a>
             {% else %}
-            <strong>{{ project.title }}</strong>
+            {{ project.title }}
             {% endif %}
           </div>
 
