@@ -34,6 +34,3 @@ Fulbright Grant (Graduate Study Program), Japan-U.S. Educational Commission (Ful
 
 **An Algebraic Study of Formal Universals in Human Language and Their Organization in Category-Theoretic Terms**  
 “Support for Pioneering Research Initiated by the Next Generation” (SPRING) Program, “Fostering Advanced Human Resource Development to Lead Green Transformation (GX)” Project, Japan Science and Technology Agency (JST), April 2026–March 2029.
-
-> God is always doing geometry  
-> -- Plato
