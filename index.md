@@ -4,75 +4,58 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at National Taiwan University, advised by [Chee-Chun Leung (梁次震)](https://www.theplan.it/eng/award-2020-Education/ntu-chee-chun-leung-cosmology-hall-a-floating-cube-in-space-kris-yao-artech).
-Before coming to NTU I studied math at the [University of Washington](http://math.washington.edu/).
-
-I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
-I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
-$\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$.
-
+I am a student of linguistics at the University of Maryland, College Park. I investigate the formal properties of the human faculty of language through the logical reconstruction and comparative study of individual I-languages, including Japanese, French, English, and Classical Chinese, among others. My approach ranges from traditional descriptive studies to the theoretical application of abstract mathematics.
 
 ## Research Interests
 
-- **Tropical geometry:** curves and Jacobians, Weierstrass points
-- **Number theory:** uniform bounds on rational points, Riemann hypothesis
-- **Biology:** evolution of bats
-
-## News
-
-- **[Feb. 2020]** Seminar talk at NTU graduate student event
-- **[Feb. 2020]** Colloquium talk at Chung Hsing University 中興大學
-- **[Sept. 2019]** Started Ph.D. program at NTU
-- **[Mar. 2019]** Graduated from Univeristy of Washington with bachelors degree.
+- Individual generative grammars (as theories of individual I-languages)
+- UG (as the theory of the faculty of language)
+- Empirical grounding of linguistic theory
+- Logical structure of linguistic theory
+- Commutative algebra
+- Category theory
 
 ## Publications
 
-{% include_relative _includes/publications.html %}
+**Formal Properties of the Prerequisite Operation for Combining Syntactic Objects: Categorical Foundations of an Algebraic Theory of Workspace**  
+Yutaro Ueno, January 2026.
 
-## Notes and Presentations
+**Generative Grammar and the New Development of Algebraic Linguistics**  
+Naoki Fukui, Yutaro Ueno, and Keita Umejima.  
+*JELS 43*, 220–227, 2026.
 
-{% include_relative _includes/notes.html %}
+## Presentations
 
-## Teaching
+**On the Mathematics of Search**  
+The 43rd Annual Conference of the English Linguistic Society of Japan, Symposium “Generative Grammar and the New Development of Algebraic Linguistics,” November 8, 2025. Invited.
 
-I have experience teaching the fundamental theorem of calculus
-\\[ \int_a^b f'(x) \, dx = f(b) - f(a) .\\]
-This is related to the isomorphism
-$\mathrm{Pic}^0(X) \cong H^0(X, \Omega^1)^\vee / H_1(X, \mathbb Z)$
-when $X$ is an algebraic curve.
+## Research Projects
 
-**University of Washington**
+**Toward a Category-Theoretic General Linguistic Theory: Foundations and Empirical Implications**  
+Fulbright Grant (Graduate Study Program), Japan-U.S. Educational Commission (Fulbright Japan), August 2026–July 2031.
 
-- [Math 115](https://dept.math.lsa.umich.edu/courses/115/), Calculus 1, Fall 2019
-- [Math 208](https://sites.math.washington.edu/~m208/), Linear Algebra, Fall 2020
+**An Algebraic Study of Formal Universals in Human Language and Their Organization in Category-Theoretic Terms**  
+“Support for Pioneering Research Initiated by the Next Generation” (SPRING) Program, “Fostering Advanced Human Resource Development to Lead Green Transformation (GX)” Project, Japan Science and Technology Agency (JST), April 2026–March 2029.
 
-## Service
+## Education
 
-#### Organizer 
-- Student Combinatorics Seminar, University of Washington
-- Directed Reading Program
+**University of Maryland, College Park**  
+Department of Linguistics, August 2026–present.
 
-#### Journal Reviewer
-- INTEGERS
-- Electronic Journal of Combinatorics
-- Taiwanese J. Math.
-- Inventiones
+**The University of Tokyo**  
+Department of Language and Information Sciences, Graduate School of Arts and Sciences, April 2026–present.
 
-## Misc. Links
+**Sophia University**  
+M.A. in Linguistics, Graduate School of Languages and Linguistics, March 2026.
 
-- [MathSciNet](https://mathscinet.ams.org/mathscinet)
-- [Online Encyclopedia of Integer Sequences (OEIS)](https://oeis.org/)
+**Sophia University**  
+B.A. in Foreign Studies, Department of English Language and Studies, Faculty of Foreign Studies, March 2024.
 
-**Other template features:**
-- Mathjax enabled: use `$...$` or `\\(...\\)` for inline mode; use `\\[...\\]` for display mode
+## Awards
 
-- Markdown code:
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-    s.add_dependency(gem, "= #{version}")
-end
-```
+**Academic Excellence Award**, Sophia University, June 2023.
+
+**Sophia University Benefactors’ Scholarship**, Department of English Studies Sentetsu, Sophia University, January 2022.
 
 - Markdown for a math quote:
 > God is always doing geometry  
