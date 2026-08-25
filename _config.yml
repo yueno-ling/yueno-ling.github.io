@@ -53,7 +53,7 @@ auto_dark_mode: true
 round_avatar: false
 
 # option to show thumbnail or "teaser" figure next to each publication
-enable_publication_thumbnails: true
+enable_publication_thumbnails: false
 enable_notes_thumbnails: false
 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
