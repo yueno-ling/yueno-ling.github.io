@@ -1,8 +1,6 @@
 main:
 
   - title: On the Mathematics of Search
-    author: Yutaro Ueno
-    year: 2025
     venue: 'The 43rd Annual Conference of the English Linguistic Society of Japan, Symposium "Generative Grammar and the New Development of Algebraic Linguistics"'
     date: November 8, 2025
     slides: /assets/files/ELSJ43_SB2.pdf
