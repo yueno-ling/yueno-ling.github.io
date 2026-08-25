@@ -34,13 +34,7 @@
           {% endif %}
           <div class="author">{{ pub.authors }}</div>
           <div class="periodical">
-            <em>{{ pub.journal }}</em>
-            {% if pub.pages %}
-            , {{ pub.pages }}
-            {% endif %}
-            {% if pub.year %}
-            ({{ pub.year }})
-            {% endif %}
+            <em>{{ pub.journal }}</em>{% if pub.pages %}, {{ pub.pages }}{% endif %}{% if pub.year %} ({{ pub.year }}){% endif %}
           </div>
           <div class="links">
             {% if pub.pdf %}
