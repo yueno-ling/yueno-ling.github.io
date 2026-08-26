@@ -16,44 +16,50 @@
             {% if project.funding_program %}{{ project.funding_program }}{% endif %}{% if project.funding_agency %}{% if project.funding_program %}, {% endif %}{{ project.funding_agency }}{% endif %}
           </div>
 
-          {% if project.grant_number %}
-          <div class="grant-number">
-            Grant number: {{ project.grant_number }}
-          </div>
-          {% endif %}
+          {% if project.grant_number or project.project_period or project.financial_support_period or project.advisor or project.co_advisor %}
+          <ul class="project-details">
 
-          {% if project.project_period %}
-          <div class="period">
-            Project period: {{ project.project_period }}
-          </div>
-          {% endif %}
-
-          {% if project.financial_support_period %}
-          <div class="period">
-            Financial support: {{ project.financial_support_period }}
-          </div>
-          {% endif %}
-
-          {% if project.advisor %}
-          <div class="advisor">
-            Advisor:
-            {% if project.advisor.url %}
-            <a href="{{ project.advisor.url }}" target="_blank" rel="noopener">{{ project.advisor.name }}</a>
-            {% else %}
-            {{ project.advisor.name }}
+            {% if project.grant_number %}
+            <li>
+              Grant number: {{ project.grant_number }}
+            </li>
             {% endif %}
-          </div>
-          {% endif %}
 
-          {% if project.co_advisor %}
-          <div class="advisor">
-            Co-advisor:
-            {% if project.co_advisor.url %}
-            <a href="{{ project.co_advisor.url }}" target="_blank" rel="noopener">{{ project.co_advisor.name }}</a>
-            {% else %}
-            {{ project.co_advisor.name }}
+            {% if project.project_period %}
+            <li>
+              Project period: {{ project.project_period }}
+            </li>
             {% endif %}
-          </div>
+
+            {% if project.financial_support_period %}
+            <li>
+              Financial support: {{ project.financial_support_period }}
+            </li>
+            {% endif %}
+
+            {% if project.advisor %}
+            <li>
+              Advisor:
+              {% if project.advisor.url %}
+              <a href="{{ project.advisor.url }}" target="_blank" rel="noopener">{{ project.advisor.name }}</a>
+              {% else %}
+              {{ project.advisor.name }}
+              {% endif %}
+            </li>
+            {% endif %}
+
+            {% if project.co_advisor %}
+            <li>
+              Co-advisor:
+              {% if project.co_advisor.url %}
+              <a href="{{ project.co_advisor.url }}" target="_blank" rel="noopener">{{ project.co_advisor.name }}</a>
+              {% else %}
+              {{ project.co_advisor.name }}
+              {% endif %}
+            </li>
+            {% endif %}
+
+          </ul>
           {% endif %}
 
           {% if project.notes %}
