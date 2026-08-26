@@ -6,7 +6,7 @@
 
     <li>
       <div class="pub-row">
-        <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+        <div class="col-sm-12" style="position: relative; padding-right: 15px; padding-left: 20px;">
 
           <div class="title">
             <strong>{{ project.title }}</strong>
@@ -17,28 +17,28 @@
           </div>
 
           {% if project.grant_number or project.project_period or project.financial_support_period or project.advisor or project.co_advisor %}
-          <ul class="project-details">
+          <ul class="project-details" style="margin-top: 4px; margin-bottom: 4px; padding-left: 1.2em;">
 
             {% if project.grant_number %}
-            <li>
+            <li style="margin-bottom: 0;">
               Grant number: {{ project.grant_number }}
             </li>
             {% endif %}
 
             {% if project.project_period %}
-            <li>
+            <li style="margin-bottom: 0;">
               Project period: {{ project.project_period }}
             </li>
             {% endif %}
 
             {% if project.financial_support_period %}
-            <li>
+            <li style="margin-bottom: 0;">
               Financial support: {{ project.financial_support_period }}
             </li>
             {% endif %}
 
             {% if project.advisor %}
-            <li>
+            <li style="margin-bottom: 0;">
               Advisor:
               {% if project.advisor.url %}
               <a href="{{ project.advisor.url }}" target="_blank" rel="noopener">{{ project.advisor.name }}</a>
@@ -49,7 +49,7 @@
             {% endif %}
 
             {% if project.co_advisor %}
-            <li>
+            <li style="margin-bottom: 0;">
               Co-advisor:
               {% if project.co_advisor.url %}
               <a href="{{ project.co_advisor.url }}" target="_blank" rel="noopener">{{ project.co_advisor.name }}</a>
@@ -63,7 +63,7 @@
           {% endif %}
 
           {% if project.notes %}
-          <div class="notes">
+          <div class="notes" style="margin-top: 4px;">
             {{ project.notes }}
           </div>
           {% endif %}
