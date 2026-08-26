@@ -14,6 +14,7 @@ main:
     committee:
     - name: "Professor Naoki Fukui"
     - name: "Associate Professor Hiroki Narita"
+      url: "https://sought.notion.site"
     - name: "Professor Toru Ishii"
       url: "https://www.isc.meiji.ac.jp/~tishii/index.html"
 
