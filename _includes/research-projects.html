@@ -9,26 +9,56 @@
         <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
 
           <div class="title">
-            {% if project.link %}
-            <a href="{{ project.link }}">{{ project.title }}</a>
-            {% else %}
-            {{ project.title }}
-            {% endif %}
+            <strong>{{ project.title }}</strong>
           </div>
 
           <div class="funding">
             {% if project.funding_program %}{{ project.funding_program }}{% endif %}{% if project.funding_agency %}{% if project.funding_program %}, {% endif %}{{ project.funding_agency }}{% endif %}
           </div>
 
-          {% if project.project_number %}
-          <div class="project-number">
-            Grant number: {{ project.project_number }}
+          {% if project.grant_number %}
+          <div class="grant-number">
+            Grant number: {{ project.grant_number }}
           </div>
           {% endif %}
 
-          {% if project.period %}
+          {% if project.project_period %}
           <div class="period">
-            {{ project.period }}
+            Project period: {{ project.project_period }}
+          </div>
+          {% endif %}
+
+          {% if project.financial_support_period %}
+          <div class="period">
+            Financial support: {{ project.financial_support_period }}
+          </div>
+          {% endif %}
+
+          {% if project.advisor %}
+          <div class="advisor">
+            Advisor:
+            {% if project.advisor.url %}
+            <a href="{{ project.advisor.url }}" target="_blank" rel="noopener">{{ project.advisor.name }}</a>
+            {% else %}
+            {{ project.advisor.name }}
+            {% endif %}
+          </div>
+          {% endif %}
+
+          {% if project.co_advisor %}
+          <div class="advisor">
+            Co-advisor:
+            {% if project.co_advisor.url %}
+            <a href="{{ project.co_advisor.url }}" target="_blank" rel="noopener">{{ project.co_advisor.name }}</a>
+            {% else %}
+            {{ project.co_advisor.name }}
+            {% endif %}
+          </div>
+          {% endif %}
+
+          {% if project.notes %}
+          <div class="notes">
+            {{ project.notes }}
           </div>
           {% endif %}
 
