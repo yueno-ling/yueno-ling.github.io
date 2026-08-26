@@ -5,7 +5,7 @@ main:
     funding_agency: "Japan-U.S. Educational Commission (Fulbright Japan)"
     period: "August 2026–August 2031"
     financial_support_period: "August 2026–August 2027"
-    notes: "Visa sponsorship and other non-financial support continue after August 2027."
+    notes: "Visa sponsorship and other non-financial support continue after August 2027"
 
   - title: "An Algebraic Study of Formal Universals in Human Language and Their Organization in Category-Theoretic Terms"
     funding_program: "Support for Pioneering Research Initiated by the Next Generation (SPRING) Program, Fostering Advanced Human Resource Development to Lead Green Transformation (GX) Project"
@@ -19,4 +19,4 @@ main:
     co_advisor:
       name: "Professor Shunsuke Takagi"
       url: "https://www.ms.u-tokyo.ac.jp/~stakagi/"
-    notes: "Academic advising and other non-financial support continue after August 2026."
+    notes: "Academic advising and other non-financial support continue after August 2026"
