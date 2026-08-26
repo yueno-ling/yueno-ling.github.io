@@ -19,8 +19,9 @@
   <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
   <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
-  <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css"
-    integrity="sha256-1oz1+rx2BF/9OiBUPSh1NEUwyUECNU5O70RoKnClGNs=" crossorigin=anonymous>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css"
+    integrity="sha256-1oz1+rx2BF/9OiBUPSh1NEUwyUECNU5O70RoKnClGNs=" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -30,11 +31,13 @@
   {% else %}
   <link rel="stylesheet" href="./assets/css/font.css">
   {% endif %}
+
   {% if site.auto_dark_mode %}
   <link rel="stylesheet" href="./assets/css/style.css">
   {% else %}
   <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
   {% endif %}
+
   {% if site.round_avatar %}
   <style>
     .image.avatar img {
@@ -45,6 +48,7 @@
 
   <!-- for mathjax support -->
   {% include_relative _includes/mathjax.html %}
+
   <!-- for code syntax highlighting -->
   <link rel="stylesheet" href="./assets/css/github-highlight.css">
 
@@ -55,14 +59,13 @@
     <header>
 
       {% if site.avatar %}
-      <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
-      {% endif %}
-
-      <h1>{{ site.title }}</h1>
+      <a class="image avatar">
+        <img src="{{ site.avatar }}" alt="avatar" />
+      </a>
 
       {% if site.photo_credit %}
-      <div class="photo-credit" style="font-size:0.75rem; margin-top:-8px; margin-bottom:8px;">
-        Photo:
+      <div class="photo-credit" style="font-size:1rem; margin-top:4px; margin-bottom:10px;">
+        Photo by
         {% if site.photo_credit_link %}
         <a href="{{ site.photo_credit_link }}" target="_blank" rel="noopener">{{ site.photo_credit }}</a>
         {% else %}
@@ -70,27 +73,35 @@
         {% endif %}
       </div>
       {% endif %}
-      
+      {% endif %}
+
+      <h1>{{ site.title }}</h1>
+
       {% if site.position %}
       <position style="font-size:1.10rem;">{{ site.position }}</position>
       <br>
       {% endif %}
+
       {% if site.affiliation %}
       <a href="{{ site.affiliation_link }}" rel="noopener">
         <autocolor>{{ site.affiliation }}</autocolor>
       </a>
       <br>
+
       {% if site.address %}
       <div class="address">{{ site.address }}</div>
       {% endif %}
       {% endif %}
+
       {% if site.email %}
       <email>{{ site.email }}</email>
       {% endif %}
 
       <br>
       <br>
+
       <div class="social-icons">
+
         {% if site.arxiv %}
         <a style="margin: 0 5px 0 0" href="{{ site.arxiv }}">
           <i class="ai ai-arxiv"></i>
@@ -134,9 +145,11 @@
         {% endif %}
 
       </div>
+
       <br>
 
     </header>
+
     <main>
 
       {{ content }}
@@ -147,30 +160,42 @@
       <p>
         <small>
           <!-- <a href="https://github.com/harryrichman/minimal-light-academic">Source</a> on GitHub. -->
-          Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/harryrichman/minimal-light-academic" target="_blank"
-            rel="noopener">Minimal Light</a> theme. 
+          Powered by <a href="https://jekyllrb.com/">Jekyll</a> and
+          <a href="https://github.com/harryrichman/minimal-light-academic"
+            target="_blank" rel="noopener">Minimal Light</a> theme.
         </small>
       </p>
       {% endif %}
 
     </main>
-    <footer>
 
+    <footer>
     </footer>
+
   </div>
+
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
   {% if site.google_analytics %}
   <script>
     (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
         (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      },
+      i[r].l = 1 * new Date();
+      a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
     ga('create', '{{ site.google_analytics }}', 'auto');
     ga('send', 'pageview');
   </script>
   {% endif %}
+
 </body>
 
 </html>
