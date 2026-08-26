@@ -8,9 +8,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
+
   {% if site.keywords %}
   <meta name="keywords" content="{{ site.keywords }}">
   {% endif %}
+
   {% if site.canonical %}
   <link rel="canonical" href="{{ site.canonical }}" />
   {% endif %}
@@ -19,12 +21,16 @@
   <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
   <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css"
-    integrity="sha256-1oz1+rx2BF/9OiBUPSh1NEUwyUECNU5O70RoKnClGNs=" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css"
+    integrity="sha256-1oz1+rx2BF/9OiBUPSh1NEUwyUECNU5O70RoKnClGNs="
+    crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
 
   {% if site.font == "Sans Serif" %}
   <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
@@ -56,15 +62,19 @@
 
 <body>
   <div class="wrapper">
+
     <header>
 
       {% if site.avatar %}
       <a class="image avatar">
         <img src="{{ site.avatar }}" alt="avatar" />
       </a>
+      {% endif %}
+
+      <h1>{{ site.title }}</h1>
 
       {% if site.photo_credit %}
-      <div class="photo-credit" style="font-size:1rem; margin-top:1px; margin-bottom:16px;">
+      <div class="photo-credit" style="font-size:1rem; margin-top:-8px; margin-bottom:16px;">
         Photo by
         {% if site.photo_credit_link %}
         <a href="{{ site.photo_credit_link }}" target="_blank" rel="noopener">{{ site.photo_credit }}</a>
@@ -73,9 +83,6 @@
         {% endif %}
       </div>
       {% endif %}
-      {% endif %}
-
-      <h1>{{ site.title }}</h1>
 
       {% if site.position %}
       <position style="font-size:1.10rem;">{{ site.position }}</position>
@@ -91,6 +98,7 @@
       {% if site.address %}
       <div class="address">{{ site.address }}</div>
       {% endif %}
+
       {% endif %}
 
       {% if site.email %}
@@ -160,9 +168,13 @@
       <p>
         <small>
           <!-- <a href="https://github.com/harryrichman/minimal-light-academic">Source</a> on GitHub. -->
-          Powered by <a href="https://jekyllrb.com/">Jekyll</a> and
+          Powered by
+          <a href="https://jekyllrb.com/">Jekyll</a>
+          and
           <a href="https://github.com/harryrichman/minimal-light-academic"
-            target="_blank" rel="noopener">Minimal Light</a> theme.
+            target="_blank"
+            rel="noopener">Minimal Light</a>
+          theme.
         </small>
       </p>
       {% endif %}
