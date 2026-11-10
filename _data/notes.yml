@@ -1,5 +1,40 @@
 main:
 
+  - title: "Generalization and Deduction in Generative Linguistics: A Case Study in Comparative Syntax"
+    venue: "Syntax Lab (S-Lab), Department of Linguistics, University of Maryland"
+    date: October 26, 2026
+    worksheet: /assets/files/SLab2026_Worksheet.pdf
+    solutions: /assets/files/SLab2026_Solutions.pdf
+    abstract: >-
+      This presentation makes a case for the value of two activities
+      in generative linguistics: searching for empirical generalizations
+      that capture linguistic observations, and writing proofs to
+      investigate the logical consequences of linguistic theories.
+      The former can provide valuable insights into the patterns
+      exhibited by linguistic expressions. Similarly, proof-writing
+      can reveal important aspects of the logical structure of a
+      linguistic theory, as we consider which assumptions might be
+      needed and how they might be invoked to derive a desired
+      theoretical statement.
+
+      To illustrate the value of these activities through a concrete
+      case study in comparative syntax, I have prepared a worksheet
+      based on selected arguments from Watanabe (1996), which will
+      serve as the basis for the presentation. We will first examine
+      a series of syntactic contrasts in Japanese and French and
+      identify empirical statements that capture their distributions
+      and the striking parallels between them. We will then consider
+      how one might derive theoretical statements corresponding to
+      these empirical generalizations from a set of assumptions in
+      the early Minimalist framework. The worksheet presents the
+      relevant problems as a series of largely self-contained
+      exercises, allowing us to engage in empirical generalization
+      and proof-writing ourselves by working through some of the
+      questions underlying Watanabe's arguments. Through these
+      exercises, I hope to show how both activities can deepen our
+      understanding of linguistic patterns and the logical structure
+      of linguistic theories, respectively.
+
   - title: On the Mathematics of Search
     venue: 'The 43rd Annual Conference of the English Linguistic Society of Japan, Symposium "Generative Grammar and the New Development of Algebraic Linguistics"'
     date: November 8, 2025
@@ -15,5 +50,3 @@ main:
   # - title: Matchings in convergent graph sequences
   #   date: March 2017
   #   pdf: ./assets/files/matchings_convergent_notes.pdf
-
-    
