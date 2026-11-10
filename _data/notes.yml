@@ -5,7 +5,7 @@ main:
     date: October 26, 2026
     worksheet: /assets/files/SLab2026_Worksheet.pdf
     solutions: /assets/files/SLab2026_Solutions.pdf
-    abstract: >-
+    abstract: |-
       This presentation makes a case for the value of two activities
       in generative linguistics: searching for empirical generalizations
       that capture linguistic observations, and writing proofs to
