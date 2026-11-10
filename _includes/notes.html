@@ -47,15 +47,23 @@
             <a href="{{ note.slides | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">Slides</a>
             {% endif %}
-
+            
             {% if note.worksheet %}
-            <a href="{{ note.worksheet | relative_url }}" class="btn btn-sm z-depth-0" role="button" download
-              style="font-size:12px;">Worksheet</a>
+            <a href="{{ note.worksheet | relative_url }}"
+               class="btn btn-sm z-depth-0"
+               role="button"
+               target="_blank"
+               rel="noopener noreferrer"
+               style="font-size:12px;">Worksheet</a>
             {% endif %}
-
+            
             {% if note.solutions %}
-            <a href="{{ note.solutions | relative_url }}" class="btn btn-sm z-depth-0" role="button" download
-              style="font-size:12px;">Solutions</a>
+            <a href="{{ note.solutions | relative_url }}"
+               class="btn btn-sm z-depth-0"
+               role="button"
+               target="_blank"
+               rel="noopener noreferrer"
+               style="font-size:12px;">Solutions</a>
             {% endif %}
 
             {% if note.poster %}
