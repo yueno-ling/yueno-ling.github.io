@@ -1,3 +1,4 @@
+
 <div class="publications">
 
   {% if site.enable_notes_thumbnails %}
@@ -36,18 +37,29 @@
           </div>
 
           <div class="links">
+
             {% if note.pdf %}
-            <a href="{{ note.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+            <a href="{{ note.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">PDF</a>
             {% endif %}
 
             {% if note.slides %}
-            <a href="{{ note.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+            <a href="{{ note.slides | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">Slides</a>
             {% endif %}
 
+            {% if note.worksheet %}
+            <a href="{{ note.worksheet | relative_url }}" class="btn btn-sm z-depth-0" role="button" download
+              style="font-size:12px;">Worksheet</a>
+            {% endif %}
+
+            {% if note.solutions %}
+            <a href="{{ note.solutions | relative_url }}" class="btn btn-sm z-depth-0" role="button" download
+              style="font-size:12px;">Solutions</a>
+            {% endif %}
+
             {% if note.poster %}
-            <a href="{{ note.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+            <a href="{{ note.poster | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">Poster</a>
             {% endif %}
 
@@ -73,7 +85,19 @@
             {% if note.others %}
             {{ note.others }}
             {% endif %}
+
           </div>
+
+          {% if note.abstract %}
+          <details style="margin-top: 8px; margin-bottom: 10px;">
+            <summary style="cursor: pointer; font-size: 13px;">
+              Abstract
+            </summary>
+            <div style="margin-top: 8px; font-size: 14px; line-height: 1.6;">
+              {{ note.abstract | markdownify }}
+            </div>
+          </details>
+          {% endif %}
 
         </div>
       </div>
